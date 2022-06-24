@@ -1,6 +1,6 @@
 # Setup your Ubuntu environment
 
-The [ubuntu-environment-setup.sh](https://github.com/BOlimpio/setup-environment/blob/main/ubuntu-environment-setup.sh) script was created to install the basic tools that you will use with focus on DevOps and AWS as a cloud provider on the ubuntu operating system.
+The [ubuntu-environment-setup.sh](https://github.com/BOlimpio/setup-environment/blob/main/ubuntu-environment-setup.sh) script was created to install the **basic tools** that you will use with focus on DevOps and AWS as a cloud provider on the ubuntu operating system.
 
 ## The following tools are currently installed:
 
