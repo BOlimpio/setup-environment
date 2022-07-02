@@ -100,3 +100,6 @@ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key 
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' 
 sudo apt update 
 sudo apt install -y jenkins
+
+#install python venv
+sudo apt install python3.8-venv
