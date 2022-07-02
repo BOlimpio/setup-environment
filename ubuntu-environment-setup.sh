@@ -85,3 +85,18 @@ sudo apt-get install -y terraform
 echo "\n"
 terraform -version
 echo "\n"
+
+#install postman
+sudo snap install postman
+
+#install java jdk 17
+sudo apt install -y openjdk-17-jdk
+echo "\n"
+java --version
+echo "\n"
+
+#install jenkins
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' 
+sudo apt update 
+sudo apt install -y jenkins
