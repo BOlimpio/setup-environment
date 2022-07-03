@@ -58,7 +58,7 @@ aws --version
 echo "\n"
 
 #install python3
-sudo apt-get install -y python3
+sudo apt-get install -y python3.7
 echo "\n"
 python -V
 echo "\n"
@@ -102,4 +102,4 @@ sudo apt update
 sudo apt install -y jenkins
 
 #install python venv
-sudo apt install python3.8-venv
+sudo apt install python3.7-venv
