@@ -101,5 +101,5 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt update 
 sudo apt install -y jenkins
 
-#install python venv
+#install python virtual environment
 sudo apt install python3.7-venv
