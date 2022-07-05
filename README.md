@@ -24,6 +24,6 @@ I hope it helps you to have less work when getting a new environment!
 Run this command in the folder where the script is:
 
 ```sh
-sudo ubuntu-environment-setup.sh
+sudo ./ubuntu-environment-setup.sh
 ```
 
