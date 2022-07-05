@@ -12,7 +12,7 @@ code --version
 echo "\n"
 
 #install notepad++ with snap command
-sudo snap install -y notepad-plus-plus
+sudo snap install notepad-plus-plus
 
 #install docker
 sudo apt-get update
