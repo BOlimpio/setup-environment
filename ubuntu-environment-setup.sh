@@ -12,7 +12,7 @@ code --version
 echo "\n"
 
 #install notepad++ with snap command
-sudo snap install notepad-plus-plus
+sudo snap install -y notepad-plus-plus
 
 #install docker
 sudo apt-get update
@@ -58,9 +58,13 @@ aws --version
 echo "\n"
 
 #install python3
-sudo apt-get install -y python3.7
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+echo | enter
+sudo apt install python3.7
 echo "\n"
-python -V
+python3.7 --version
 echo "\n"
 
 #install pip package manager
@@ -87,7 +91,7 @@ terraform -version
 echo "\n"
 
 #install postman
-sudo snap install postman
+sudo snap install -y postman
 
 #install java jdk 17
 sudo apt install -y openjdk-17-jdk
@@ -101,5 +105,5 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt update 
 sudo apt install -y jenkins
 
-#install python virtual environment
-sudo apt install python3.7-venv
+#install python sudo systemctl status jenkinsvirtual environment
+sudo apt install -y python3.7-venv
