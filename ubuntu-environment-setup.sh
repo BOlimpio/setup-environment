@@ -91,7 +91,7 @@ terraform -version
 echo "\n"
 
 #install postman
-sudo snap install -y postman
+sudo snap install postman
 
 #install java jdk 17
 sudo apt install -y openjdk-17-jdk
