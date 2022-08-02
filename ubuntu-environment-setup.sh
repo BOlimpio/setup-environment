@@ -59,12 +59,9 @@ echo "\n"
 
 #install python3
 sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-echo | enter
-sudo apt install python3.7
+sudo apt-get install python3
 echo "\n"
-python3.7 --version
+python3 --version
 echo "\n"
 
 #install pip package manager
@@ -104,6 +101,7 @@ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key 
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' 
 sudo apt update 
 sudo apt install -y jenkins
+sudo systemctl status jenkins
 
-#install python sudo systemctl status jenkinsvirtual environment
-sudo apt install -y python3.7-venv
+#install python virtual environment
+python -m pip install --user virtualenv
